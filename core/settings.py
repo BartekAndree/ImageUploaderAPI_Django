@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'image_uploader',
     'rest_framework',
-    'rest_framework_swagger',
 ]
 
 MIDDLEWARE = [
