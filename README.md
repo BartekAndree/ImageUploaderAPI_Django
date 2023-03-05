@@ -27,29 +27,29 @@ To run the project, simply clone the repository and run it with Docker Compose. 
 #### User photo list
 
 ```http
-  GET api/file-list/
+  GET /api/file-list/
 ```
 #### Photo details
 ```http
-  GET api/file-details/<int:pk>
+  GET /api/file-details/<int:pk>
 ```
 #### Delete photo
 ```http
-  DELETE api/file-delete/<int:pk>
+  DELETE /api/file-delete/<int:pk>
 ```
 #### Generate links
 ```http
-  GET api/generate-links/
+  GET /api/generate-links/
 ```
 
 
 
 #### Generate links list
 ```http
-  GET api/generate-links/
+  GET /api/generate-links/
 ```
 #### Generated link details
 ```http
-  GET api/generate-link-details/<int:pk>
+  GET /api/generate-link-details/<int:pk>
 ```
 
