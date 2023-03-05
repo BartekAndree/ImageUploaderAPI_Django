@@ -76,6 +76,19 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+#POSTGRESQL
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.oracle',
+#         'NAME': 'postgresdb',
+#         'USER': 'postgresuser',
+#         'PASSWORD': 'postgrespassword',
+#         'HOST': 'db',
+#         'PORT': '5432',
+#     }
+# }
+
+#SQLITE
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
