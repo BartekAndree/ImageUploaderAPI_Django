@@ -21,14 +21,9 @@ Basic, Premium, and Enterprise
 
 Admins can create custom account tiers with configurable thumbnail sizes, the presence of the link to the originally uploaded file, and the ability to generate expiring links. The admin UI is accessible through Django's admin panel, and there is no custom user UI.
 
-To run the project, simply clone the repository and run it with Docker Compose. Then use commands:
+To run the project, simply clone the repository and run it with Docker Compose. Then use this commands to make migrations:
 
-  ```
-  docker ps
-  ```
-  ```
-  docker exec -it <name> bash
-  ```
+  
   ```
   python manage.py makemigrations
   ```
